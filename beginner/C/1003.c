@@ -1,20 +1,19 @@
-#include <stdio.h>
-/*The formula to calculate the area of a circumference is defined as A = π . R2. Considering to this problem that 
-    π = 3.14159:
-    Calculate the area using the formula given in the problem description. (area = pi*(r*r))
-    
+    /*Read two integer values, in this case, the variables A and B. After this, 
+    calculate the sum between them and assign it to the variable SOMA. Write the value of this variable.
+
     Input
-    The input contains a value of floating point (double precision), that is the variable R.
-    
+    The input file contains 2 integer numbers.
+
     Output
-    Present the message "A=" followed by the value of the variable, as in the example bellow,
-    with four places after the decimal point. Use all double precision variables.
-    Like all the problems, don't forget to print the end of line after the result, 
-    otherwise you will receive "Presentation Error".*/
-int main(){
-    double Pi,A,R;
-    Pi = 3.14159;           //given by the exercise
-    scanf("%lf",&R);        //given by user
-    A = Pi * (R*R);         //r² == r*r
-    printf("A=%.4lf\n",A);
+    Print the message "SOMA" with all the capital letters, 
+    with a blank space before and after the equal signal followed by the corresponding value to the sum of A and B.
+    Like all the problems, don't forget to print the end of line, otherwise you will receive "Presentation Error"*/
+#include <stdio.h>
+int main (){
+
+    scanf("%d%d",&A,&B);
+    SOMA = A+B;
+
+    printf("SOMA = %d\n",SOMA);
+
 }
