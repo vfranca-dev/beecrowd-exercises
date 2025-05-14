@@ -11,7 +11,7 @@
 	Print the message "MEDIA"(average in Portuguese) and the student's average according to the following example,
 	with 5 digits after the decimal point and with a blank space before and after the equal signal.
 	E.G.:MEDIA = 6.43182*/
-
+ 
 #include <stdio.h>
 #include <stdlib.h>
 
