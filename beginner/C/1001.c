@@ -13,10 +13,10 @@ Obs.: don't forget the endline after all.*/
 #include <stdio.h>
 
 int main(){
-    //answer should have ("X = "RESULT)
-    int A,B,X ; //x == sum of a+b
+                            
+    int A,B,X ;              //x == sum of a+b
 
     scanf("%d%d",&A,&B);
     X = A+B;
-    printf("X = %d",X\n);
+    printf("X = %d",X\n); //answer should have ("X = "RESULT)
 }

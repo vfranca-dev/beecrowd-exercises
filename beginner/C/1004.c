@@ -11,6 +11,6 @@ int main(){
     Print the message "PROD" and PROD according to the following example, with a blank space before and after the equal signal. */
     int Res,A,B;
     scanf("%d%d",&A,&B);
-    Res = A*B; //res == result of a times b;
+    Res = A*B;                  //res == result of a times b;
     printf("PROD = %d\n",Res);
 }

@@ -13,8 +13,8 @@
     otherwise you will receive "Presentation Error".*/
 int main(){
     double Pi,A,R;
-    Pi = 3.14159; //given by the exercise
-    scanf("%lf",&R); //given by user
-    A = Pi * (R*R); //r² == r*r
+    Pi = 3.14159;           //given by the exercise
+    scanf("%lf",&R);        //given by user
+    A = Pi * (R*R);         //r² == r*r
     printf("A=%.4lf\n",A);
 }
