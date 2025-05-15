@@ -23,7 +23,7 @@ int main (){
     
     int EmployeeID,WorkedHours;
     double PerHour;
-    
+        
     scanf("%d%d%lf",&EmployeeID,&WorkedHours,&PerHour);
     printf("NUMBER = %d\nSALARY = U$ %.2lf\n",EmployeeID,(WorkedHours*PerHour));
 

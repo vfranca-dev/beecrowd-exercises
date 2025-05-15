@@ -27,7 +27,7 @@ int main (){
     double Salary, ValueSold;
     
     scanf("%s%lf%lf",&NameEmployee,&Salary,&ValueSold);
-    
+        
     //Total salary gets salary +15% of ValueSold 
     printf("TOTAL = R$ %.2lf\n",(Salary+(ValueSold*0.15)));
     

@@ -23,7 +23,7 @@ int main (){
     
     int ProductCode1, ProductUnits1, ProductCode2, ProductUnits2;
     double ProductPrice1, ProductPrice2, Total;
-    
+        
     scanf("%d%d%lf%d%d%lf",&ProductCode1,&ProductUnits1,&ProductPrice1,&ProductCode2,&ProductUnits2,&ProductPrice2);
     
     Total = (ProductUnits1*ProductPrice1)+(ProductUnits2*ProductPrice2);
