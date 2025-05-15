@@ -30,18 +30,23 @@ int main (){
 }
 
 /*  i had forgotten to use the formula given by the exercise, so i'm saving my previous solution here;
-    ValueGreatest=A;
+    
+
+#include <stdio.h>
+
+int main()
+{
+    int ValueA, ValueB, ValueC, ValueGreatest,Aux;
+    scanf("%d%d%d",&ValueA,&ValueB,&ValueC);
+    
+    ValueGreatest=ValueA;
     if(ValueB>ValueGreatest){
         ValueGreatest = ValueB;
-        printf("%d eh o maior\n",ValueGreatest);
     }
-    else{
-        if(ValueC>ValueGreatest){
-            ValueGreatest = ValueC;
-            printf("%d eh o maior\n",ValueGreatest);
-        }
-        else{
-            printf("%d eh o maior\n",ValueGreatest);
-        }
+    if(ValueC>ValueGreatest){
+        ValueGreatest = ValueC;
     }
+    printf("%d eh o maior\n",ValueGreatest);
+    return 0;
+}
 */
